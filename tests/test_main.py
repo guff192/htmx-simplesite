@@ -1,5 +1,9 @@
 
-def test_read_main(client):
+from fastapi.testclient import TestClient
+
+
+def test_read_main(client: TestClient):
     response = client.get("/")
     assert response.status_code == 200
-    assert "<h1>Hello World!</h1>" in response.text
+    assert 'text/html' in response.headers.get('content-type', '')
+    assert ">Simple Site</h1>" in response.text
