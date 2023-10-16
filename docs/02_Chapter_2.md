@@ -3,11 +3,11 @@
 ### Table of Contents
 | Chapter | Title | Branch
 | --- | --- | --- |
-| Preface | [Getting Started](https://github.com/guff192/simplesite/blob/main/docs/00_Preface.md) | [`main`](https://github.com/guff192/simplesite) |
-| Chapter 1 | [Using Jinja Templates to Render HTML](https://github.com/guff192/simplesite/blob/main/docs/01_Chapter_1.md) | [`01_templates`](https://github.com/guff192/simplesite/tree/01_templates) |
-| Chapter 2 | [Harnessing TailwindCSS for Consistent Design](https://github.com/guff192/simplesite/blob/main/docs/02_Chapter_2.md) | [`02_tailwindcss`](https://github.com/guff192/simplesite/tree/02_tailwindcss) |
-| Chapter 3 | [A Thin Database Layer](https://github.com/guff192/simplesite/blob/main/docs/03_Chapter_3.md) | [`03_tinydb`](https://github.com/guff192/simplesite/tree/03_tinydb) |
-| Chapter 4 | [Modern Browser Features Directly from HTML](https://github.com/guff192/simplesite/blob/main/docs/04_Chapter_4.md) | [`04_htmx`](https://github.com/guff192/simplesite/tree/04_htmx)  |
+| Preface | [Getting Started](https://github.com/guff192/htmx-simplesite/blob/main/docs/00_Preface.md) | [`main`](https://github.com/guff192/htmx-simplesite) |
+| Chapter 1 | [Using Jinja Templates to Render HTML](https://github.com/guff192/htmx-simplesite/blob/main/docs/01_Chapter_1.md) | [`01_templates`](https://github.com/guff192/htmx-simplesite/tree/01_templates) |
+| Chapter 2 | [Harnessing TailwindCSS for Consistent Design](https://github.com/guff192/htmx-simplesite/blob/main/docs/02_Chapter_2.md) | [`02_tailwindcss`](https://github.com/guff192/htmx-simplesite/tree/02_tailwindcss) |
+| Chapter 3 | [A Thin Database Layer](https://github.com/guff192/htmx-simplesite/blob/main/docs/03_Chapter_3.md) | [`03_tinydb`](https://github.com/guff192/htmx-simplesite/tree/03_tinydb) |
+| Chapter 4 | [Modern Browser Features Directly from HTML](https://github.com/guff192/htmx-simplesite/blob/main/docs/04_Chapter_4.md) | [`04_htmx`](https://github.com/guff192/htmx-simplesite/tree/04_htmx)  |
 
 ## 📚 Chapter 2: Harnessing TailwindCSS for Consistent Design
 
@@ -252,4 +252,4 @@ In the next chapter, we will create a small, makeshift database to emulate the p
 
 It is meant to be very general and is not the focus of what we're building. In fact, if you have a database abstraction already, you can use that instead.
 
-Once you are comfortable with Jinja templates and the way you can use Tailwind, you should be ready to move on to [Chapter 3](https://github.com/guff192/simplesite/blob/main/docs/03_Chapter_3.md).
+Once you are comfortable with Jinja templates and the way you can use Tailwind, you should be ready to move on to [Chapter 3](https://github.com/guff192/htmx-simplesite/blob/main/docs/03_Chapter_3.md).

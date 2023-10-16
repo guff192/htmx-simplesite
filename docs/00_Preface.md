@@ -3,11 +3,11 @@
 ### Table of Contents
 | Chapter | Title | Branch
 | --- | --- | --- |
-| Preface | [Getting Started](https://github.com/guff192/simplesite/blob/main/docs/00_Preface.md) | [`main`](https://github.com/guff192/simplesite) |
-| Chapter 1 | [Using Jinja Templates to Render HTML](https://github.com/guff192/simplesite/blob/main/docs/01_Chapter_1.md) | [`01_templates`](https://github.com/guff192/simplesite/tree/01_templates) |
-| Chapter 2 | [Harnessing TailwindCSS for Consistent Design](https://github.com/guff192/simplesite/blob/main/docs/02_Chapter_2.md) | [`02_tailwindcss`](https://github.com/guff192/simplesite/tree/02_tailwindcss) |
-| Chapter 3 | [A Thin Database Layer](https://github.com/guff192/simplesite/blob/main/docs/03_Chapter_3.md) | [`03_tinydb`](https://github.com/guff192/simplesite/tree/03_tinydb) |
-| Chapter 4 | [Modern Browser Features Directly from HTML](https://github.com/guff192/simplesite/blob/main/docs/04_Chapter_4.md) | [`04_htmx`](https://github.com/guff192/simplesite/tree/04_htmx)  |
+| Preface | [Getting Started](https://github.com/guff192/htmx-simplesite/blob/main/docs/00_Preface.md) | [`main`](https://github.com/guff192/htmx-simplesite) |
+| Chapter 1 | [Using Jinja Templates to Render HTML](https://github.com/guff192/htmx-simplesite/blob/main/docs/01_Chapter_1.md) | [`01_templates`](https://github.com/guff192/htmx-simplesite/tree/01_templates) |
+| Chapter 2 | [Harnessing TailwindCSS for Consistent Design](https://github.com/guff192/htmx-simplesite/blob/main/docs/02_Chapter_2.md) | [`02_tailwindcss`](https://github.com/guff192/htmx-simplesite/tree/02_tailwindcss) |
+| Chapter 3 | [A Thin Database Layer](https://github.com/guff192/htmx-simplesite/blob/main/docs/03_Chapter_3.md) | [`03_tinydb`](https://github.com/guff192/htmx-simplesite/tree/03_tinydb) |
+| Chapter 4 | [Modern Browser Features Directly from HTML](https://github.com/guff192/htmx-simplesite/blob/main/docs/04_Chapter_4.md) | [`04_htmx`](https://github.com/guff192/htmx-simplesite/tree/04_htmx)  |
 
 ## 📚 Preface: Getting Started
 
@@ -23,7 +23,7 @@ This project is also set up to work with [GitHub Codespaces](https://github.com/
 
 > Note: GitHub Codespaces allows you to work in the cloud without setting up a local development environment. All dependencies are managed for you! All personal GitHub accounts include a monthly quota of 60 hours of free usage.
 
-Once you have cloned the starter application, you are ready to move on to [Chapter 1](https://github.com/guff192/simplesite/blob/main/docs/01_Chapter_1.md).
+Once you have cloned the starter application, you are ready to move on to [Chapter 1](https://github.com/guff192/htmx-simplesite/blob/main/docs/01_Chapter_1.md).
 
 If you want to go the more traditional route, you can clone/copy to your local environment. If you're fairly new to web frameworks, I recommend starting from scratch, as it helps create a mental model of how all the pieces fit together.
 
@@ -113,4 +113,4 @@ If the command is successful, you can visit [127.0.0.1:8000](http://127.0.0.1:80
 
 Take your time getting comfortable with how your app is put together.
 
-Once you're comfortable with how it works, it is time to move on to [Chapter 1](https://github.com/guff192/simplesite/blob/main/docs/01_Chapter_1.md).
+Once you're comfortable with how it works, it is time to move on to [Chapter 1](https://github.com/guff192/htmx-simplesite/blob/main/docs/01_Chapter_1.md).

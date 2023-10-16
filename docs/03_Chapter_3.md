@@ -3,11 +3,11 @@
 ### Table of Contents
 | Chapter | Title | Branch
 | --- | --- | --- |
-| Preface | [Getting Started](https://github.com/guff192/simplesite/blob/main/docs/00_Preface.md) | [`main`](https://github.com/guff192/simplesite) |
-| Chapter 1 | [Using Jinja Templates to Render HTML](https://github.com/guff192/simplesite/blob/main/docs/01_Chapter_1.md) | [`01_templates`](https://github.com/guff192/simplesite/tree/01_templates) |
-| Chapter 2 | [Harnessing TailwindCSS for Consistent Design](https://github.com/guff192/simplesite/blob/main/docs/02_Chapter_2.md) | [`02_tailwindcss`](https://github.com/guff192/simplesite/tree/02_tailwindcss) |
-| Chapter 3 | [A Thin Database Layer](https://github.com/guff192/simplesite/blob/main/docs/03_Chapter_3.md) | [`03_tinydb`](https://github.com/guff192/simplesite/tree/03_tinydb) |
-| Chapter 4 | [Modern Browser Features Directly from HTML](https://github.com/guff192/simplesite/blob/main/docs/04_Chapter_4.md) | [`04_htmx`](https://github.com/guff192/simplesite/tree/04_htmx)  |
+| Preface | [Getting Started](https://github.com/guff192/htmx-simplesite/blob/main/docs/00_Preface.md) | [`main`](https://github.com/guff192/htmx-simplesite) |
+| Chapter 1 | [Using Jinja Templates to Render HTML](https://github.com/guff192/htmx-simplesite/blob/main/docs/01_Chapter_1.md) | [`01_templates`](https://github.com/guff192/htmx-simplesite/tree/01_templates) |
+| Chapter 2 | [Harnessing TailwindCSS for Consistent Design](https://github.com/guff192/htmx-simplesite/blob/main/docs/02_Chapter_2.md) | [`02_tailwindcss`](https://github.com/guff192/htmx-simplesite/tree/02_tailwindcss) |
+| Chapter 3 | [A Thin Database Layer](https://github.com/guff192/htmx-simplesite/blob/main/docs/03_Chapter_3.md) | [`03_tinydb`](https://github.com/guff192/htmx-simplesite/tree/03_tinydb) |
+| Chapter 4 | [Modern Browser Features Directly from HTML](https://github.com/guff192/htmx-simplesite/blob/main/docs/04_Chapter_4.md) | [`04_htmx`](https://github.com/guff192/htmx-simplesite/tree/04_htmx)  |
 
 ## 📚 Chapter 3: A Thin Database Layer
 
@@ -40,7 +40,7 @@ The API is already very easy to understand. However, I've created a new module (
 - `search(key, value)` - begin a search of the `key` field, and return all items that contain part of the `value`
 - `get_random_item()` - returns one random item from the database
 
-Note that there aren't any write operations (as of now), but they could easily be added if needed. The operations listed above are used in [Chapter 4](https://github.com/guff192/simplesite/blob/main/docs/04_Chapter_4.md).
+Note that there aren't any write operations (as of now), but they could easily be added if needed. The operations listed above are used in [Chapter 4](https://github.com/guff192/htmx-simplesite/blob/main/docs/04_Chapter_4.md).
 
 ### Getting Ready
 
@@ -317,4 +317,4 @@ If `artists` is a `list` of `dict` items, this will iterate over the list and ea
 > Note: You don't always have to send the database response directly to the template. A lot of times, you may want to do some processing within the FastAPI method before returning anything to the template. Look at the `routes.py` file in the repo, and notice the specific route for the catalog page. There are functions defined within this route that are then passed directly to the template!
 
 
-Once you're comfortable with this server-side web app, you may be ready to add some 🎇pizzaz🎇. If that's you, then you're ready to move to [Chapter 4](https://github.com/guff192/simplesite/blob/main/docs/04_Chapter_4.md).
+Once you're comfortable with this server-side web app, you may be ready to add some 🎇pizzaz🎇. If that's you, then you're ready to move to [Chapter 4](https://github.com/guff192/htmx-simplesite/blob/main/docs/04_Chapter_4.md).

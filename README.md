@@ -4,8 +4,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/guff192/simplesite)](https://github.com/guff192/simplesite/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/guff192/simplesite)](https://github.com/guff192/simplesite/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/guff192/htmx-simplesite)](https://github.com/guff192/htmx-simplesite/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/guff192/htmx-simplesite)](https://github.com/guff192/htmx-simplesite/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
@@ -17,7 +17,7 @@
 </p>
 <p align="center">
   <a href="" rel="noopener">
- <img width=400px height=400px src="https://github.com/guff192/simplesite/blob/main/assets/simple-site-demo.gif" alt="Project demo"></a>
+ <img width=400px height=400px src="https://github.com/guff192/htmx-simplesite/blob/main/assets/simple-site-demo.gif" alt="Project demo"></a>
 </p>
 
 ## 📝 Table of Contents
@@ -140,11 +140,11 @@ These Chapters are all located in the "docs" directory. The direct links to the 
 
 | Chapter | Title | Branch
 | --- | --- | --- |
-| Preface | [Getting Started](https://github.com/guff192/simplesite/blob/main/docs/00_Preface.md) | [`main`](https://github.com/guff192/simplesite) |
-| Chapter 1 | [Using Jinja Templates to Render HTML](https://github.com/guff192/simplesite/blob/main/docs/01_Chapter_1.md) | [`01_templates`](https://github.com/guff192/simplesite/tree/01_templates) |
-| Chapter 2 | [Harnessing TailwindCSS for Consistent Design](https://github.com/guff192/simplesite/blob/main/docs/02_Chapter_2.md) | [`02_tailwindcss`](https://github.com/guff192/simplesite/tree/02_tailwindcss) |
-| Chapter 3 | [A Thin Database Layer](https://github.com/guff192/simplesite/blob/main/docs/03_Chapter_3.md) | [`03_tinydb`](https://github.com/guff192/simplesite/tree/03_tinydb) |
-| Chapter 4 | [Modern Browser Features Directly from HTML](https://github.com/guff192/simplesite/blob/main/docs/04_Chapter_4.md) | [`04_htmx`](https://github.com/guff192/simplesite/tree/04_htmx)  |
+| Preface | [Getting Started](https://github.com/guff192/htmx-simplesite/blob/main/docs/00_Preface.md) | [`main`](https://github.com/guff192/htmx-simplesite) |
+| Chapter 1 | [Using Jinja Templates to Render HTML](https://github.com/guff192/htmx-simplesite/blob/main/docs/01_Chapter_1.md) | [`01_templates`](https://github.com/guff192/htmx-simplesite/tree/01_templates) |
+| Chapter 2 | [Harnessing TailwindCSS for Consistent Design](https://github.com/guff192/htmx-simplesite/blob/main/docs/02_Chapter_2.md) | [`02_tailwindcss`](https://github.com/guff192/htmx-simplesite/tree/02_tailwindcss) |
+| Chapter 3 | [A Thin Database Layer](https://github.com/guff192/htmx-simplesite/blob/main/docs/03_Chapter_3.md) | [`03_tinydb`](https://github.com/guff192/htmx-simplesite/tree/03_tinydb) |
+| Chapter 4 | [Modern Browser Features Directly from HTML](https://github.com/guff192/htmx-simplesite/blob/main/docs/04_Chapter_4.md) | [`04_htmx`](https://github.com/guff192/htmx-simplesite/tree/04_htmx)  |
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
