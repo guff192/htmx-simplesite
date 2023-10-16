@@ -1,16 +1,21 @@
 from pathlib import Path
 from typing import Any
+from typing import Any
 
 from fastapi.responses import HTMLResponse
 from pydantic_settings import BaseSettings
-from typing import Any
+
 
 APP_DIR = Path(__file__).resolve().parent
 
 
 class Settings(BaseSettings):
+    DEBUG: bool = True
 
     APP_DIR: Path = APP_DIR
+    ROOT_DIR: Path = APP_DIR.parent
+
+    DATA_DIR: Path = ROOT_DIR / 'data'
 
     STATIC_DIR: Path = APP_DIR / 'static'
     TEMPLATE_DIR: Path = APP_DIR / 'templates'
