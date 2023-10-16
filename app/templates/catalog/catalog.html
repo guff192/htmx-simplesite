@@ -1,0 +1,33 @@
+{% extends "shared/_base.html" %}
+
+{% block content %}
+<section class="bg-slate-600 max-w-screen-lg mx-auto text-center">
+    <h1 class="text-4xl font-bold font-serif mb-8">Welcome</h1>
+    <div id="artists" class="grid grid-cols-3 justify-items-center gap-4">
+    {% for artist in artists %}
+        <div class="flex flex-col items-center justify-center w-80 h-60 mb-3 border-2 border-neutral-500 rounded">
+            <a href="{{ get_website(artist) }}" class="hover:underline">
+                <span class="text-2xl font-bold mb-2">{{artist['name']}}</span>
+            </a>
+            <div class="rounded-s p-2 mb-1 bg-slate-500 w-">
+                <ul>
+                {% for member in get_active_members(artist) %}
+                    <li><span class="text-md">{{member['name']}}<br/></span></li>
+                {% endfor %}
+                </ul>
+            </div>
+
+            <div id="artist{{artist['id']}}">
+                <button
+                        hx-get="/catalog/artists/{{artist['id']}}"
+                        hx-trigger="click"
+                        hx-target="#artist{{artist['id']}}"
+                        hx-swap="outerHTML"
+                        class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700"
+                            >Info</button>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</section>
+{% endblock %}

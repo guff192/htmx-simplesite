@@ -1,0 +1,8 @@
+<div>
+
+    <ul id="artist{{artist['id']}}info">
+    {% for alias in artist['aliases'] %}
+        <li>{{ alias['name'] }}</li>
+    {% endfor %}
+    </ul>
+</div>
