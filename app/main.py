@@ -1,3 +1,6 @@
+from contextlib import asynccontextmanager
+import subprocess
+
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 
@@ -6,10 +9,31 @@ from app.routes import router
 
 settings = Settings()
 
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Context manager for FastAPI app. It will run all code before `yield`
+    on app startup, and will run code after `yeld` on app shutdown.
+    """
+
+    try:
+        subprocess.run([
+            "tailwindcss",
+            "-i",
+            str(settings.STATIC_DIR / "src" / "tw.css"),
+            "-o",
+            str(settings.STATIC_DIR / "css" / "main.css"),
+        ])
+    except Exception as e:
+        print(f"Error running tailwindcss: {e}")
+
+    yield
+
+
 def get_app() -> FastAPI:
     '''Create a FastAPI app with the specified settings.'''
 
-    app = FastAPI(**settings.fastapi_kwargs)
+    app = FastAPI(lifespan=lifespan, **settings.fastapi_kwargs)
 
     app.mount('/static', StaticFiles(directory=settings.STATIC_DIR), name='static')
 
@@ -21,8 +45,12 @@ def get_app() -> FastAPI:
 app = get_app()
 
 
-if __name__ == '__main__':
+def run(app='app.main:app'):
     import uvicorn
 
-    uvicorn.run(app, host='127.0.0.1', port=8000)
+    uvicorn.run(app, host='127.0.0.1', port=8000, reload=settings.DEBUG, reload_includes='*.html')
+
+
+if __name__ == '__main__':
+    run()
 
