@@ -156,7 +156,7 @@ These Chapters are all located in the "docs" directory. The direct links to the 
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@guff192](https://github.com/guff192) - Mario Munoz, _Python By Night_
+- [@tataraba](https://github.com/tataraba) - Mario Munoz, _Python By Night_
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
